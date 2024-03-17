@@ -1,0 +1,2 @@
+﻿  CFBS.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\barrier(16): warning STL4038: The contents of <barrier> are available only with C++20 or later.

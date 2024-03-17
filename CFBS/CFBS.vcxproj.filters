@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Functions">
+      <UniqueIdentifier>{b26f2de0-918c-4361-808f-d147ba43e430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\MainAttack">
+      <UniqueIdentifier>{60922183-a64e-46fa-9607-33b1d089657d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CFBS.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="ccurl.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="randomUa.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="addProxy.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="addUa.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="cfBypassCurl.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ratelimitchecker.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ccurlPost.cpp">
+      <Filter>Kaynak Dosyalar\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="combine.cpp">
+      <Filter>Kaynak Dosyalar\MainAttack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="httplib.h">
+      <Filter>Kaynak Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="mainFuncs.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="itToP.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="proxies.txt" />
+    <Text Include="useragents.txt" />
+  </ItemGroup>
+</Project>
